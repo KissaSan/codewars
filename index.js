@@ -21,11 +21,17 @@
 // res = basicOp('-', 15, 18);
 // console.log(res);
 
-function makeUpperCase(str) {
-  // Code here
-  res = str.toUpperCase();
-  return res;
-}
+// function makeUpperCase(str) {
+//   // Code here
+//   res = str.toUpperCase();
+//   return res;
+// }
 
-res = makeUpperCase('heloo');
-console.log(res);
+// res = makeUpperCase('heloo');
+// console.log(res);
+
+// function twiceAsOld(dadYearsOld, sonYearsOld) {
+//   // your code here
+//   res =  Math.abs(dadYearsOld-(sonYearsOld * 2)) ;
+//   return res
+// }
