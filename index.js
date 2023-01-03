@@ -19,8 +19,6 @@
 // }
 
 // res = basicOp('-', 15, 18);
-// console.log(res);
-
 // function makeUpperCase(str) {
 //   // Code here
 //   res = str.toUpperCase();
@@ -35,3 +33,12 @@
 //   res =  Math.abs(dadYearsOld-(sonYearsOld * 2)) ;
 //   return res
 // }
+
+const stringToNumber = function (str) {
+  // put your code here
+  return Number(str);
+};
+
+function lovefunc(flower1, flower2) {
+  return flower1 % 2 !== flower2 % 2;
+}
