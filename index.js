@@ -47,3 +47,8 @@ function hoopCount(n) {
     ? 'Keep at it until you get it'
     : 'Great, now move on to tricks';
 }
+
+function opposite(number) {
+  let oppNum = 0 - number;
+  return oppNum;
+}
