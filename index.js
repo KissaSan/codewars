@@ -60,3 +60,13 @@ function countSheeps(arrayOfSheep) {
   }
   return counter;
 }
+
+function betterThanAverage(classPoints, yourPoints) {
+  let classAverage =
+    classPoints.reduce((sum, current) => sum + current, 0) / classPoints.length;
+  return yourPoints > classAverage;
+}
+
+function evenOrOdd(number) {
+  return number % 2 ? 'Odd' : 'Even';
+}
