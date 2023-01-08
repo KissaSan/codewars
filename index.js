@@ -70,3 +70,7 @@ function betterThanAverage(classPoints, yourPoints) {
 function evenOrOdd(number) {
   return number % 2 ? 'Odd' : 'Even';
 }
+
+function invert(array) {
+  return array.map((num) => num * -1);
+}
