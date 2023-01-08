@@ -86,3 +86,6 @@ function countBy(x, n) {
   }
   return result;
 }
+
+const positiveSum = (arr) =>
+  arr.reduce((accumulator, current) => accumulator + Math.max(current, 0), 0);
