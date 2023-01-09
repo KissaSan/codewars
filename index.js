@@ -89,3 +89,7 @@ function countBy(x, n) {
 
 const positiveSum = (arr) =>
   arr.reduce((accumulator, current) => accumulator + Math.max(current, 0), 0);
+
+function stringToArray(string) {
+  return string.trim().split(' ');
+}
