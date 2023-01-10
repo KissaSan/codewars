@@ -111,3 +111,9 @@ function XO(str) {
   }
   return x === o;
 }
+
+
+function removeEveryOther(arr){
+ return arr.filter(function(_, index) {
+    return !(index % 2);
+  });}
