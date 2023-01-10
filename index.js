@@ -93,3 +93,7 @@ const positiveSum = (arr) =>
 function stringToArray(string) {
   return string.trim().split(' ');
 }
+
+function disemvowel(str) {
+  return str.replace(/[aeiou]/gi, '');
+}
