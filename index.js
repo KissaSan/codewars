@@ -136,3 +136,14 @@ function removeEveryOther(arr){
  let number=function(array){
   return array.map((element, index) => `${index + 1}: ${element}`);
 }
+ 
+
+function openOrSenior(data){
+  function determineMembership(member){
+     return (member[0] >= 55 && member[1] > 7) ? 'Senior' : 'Open';
+   }
+   return data.map(determineMembership);}
+
+   function addBinary(a,b) {
+    return (a+b).toString(2)
+   }
