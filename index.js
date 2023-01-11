@@ -147,3 +147,7 @@ function openOrSenior(data){
    function addBinary(a,b) {
     return (a+b).toString(2)
    }
+
+   function getAge(inputString){
+    return Number(inputString[0]);
+    }
